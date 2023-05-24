@@ -1,0 +1,9 @@
+add_executable(demo_univers demo_univers.cxx)
+add_executable(demo_lab4 demo_lab4.cxx)
+add_executable(demo_collision demo_collision.cxx)
+add_executable (systeme_solaire systeme_solaire.cxx)
+
+target_link_libraries(demo_lab4 particules)
+target_link_libraries(demo_univers particules)
+target_link_libraries(demo_collision particules)
+target_link_libraries(systeme_solaire particules)

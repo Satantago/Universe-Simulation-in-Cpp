@@ -6,6 +6,7 @@ Compilation:
 Generate documentation inside "docs" directory:
 1. cd build
 2. make doc
+3. open ../docs/html/index.html
 
 Tests & Demos:
 1. cd build
